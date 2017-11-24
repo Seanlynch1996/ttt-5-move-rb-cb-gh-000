@@ -12,6 +12,7 @@ def input_to_index(input)
   return (num - 1)
 end
 
-def move(board, input)
-
+def move(board, input, x_or_o)
+  board[input] = x_or_o
+  return board
 end
