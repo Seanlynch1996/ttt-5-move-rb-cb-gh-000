@@ -14,5 +14,4 @@ end
 
 def move(board, input, x_or_o)
   board[input] = x_or_o
-  return board
 end
