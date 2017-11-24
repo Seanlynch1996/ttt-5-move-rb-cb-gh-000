@@ -13,5 +13,3 @@ end
 
 def move(board, input)
 end
-
-  
